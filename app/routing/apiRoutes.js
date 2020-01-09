@@ -50,10 +50,11 @@ module.exports = function(app){
                 bestMatch.photo = friends[i].photo;
                 bestMatch.friendDifference = totalDifference;
             }
-            console.log(totalDifference + "total Difference");
+            console.log(totalDifference + " total Difference");
         }
 
         console.log(bestMatch);
+
         friends.push(userData);
         console.log("new user added");
         console.log(userData);
